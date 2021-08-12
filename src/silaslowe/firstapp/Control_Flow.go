@@ -1,11 +1,11 @@
-package main
+// package main
 
-import (
-	"fmt"
-	"log"
-)
+// import (
+// 	"fmt"
+// 	"log"
+// )
 
-func main() {
+// func main() {
 
 	// Last in/first out with defer
 	// fmt.Println("start")
@@ -31,14 +31,14 @@ func main() {
 	
 	// Panic runs after defered 
 
-	fmt.Println("start")
-	defer func() {
-			if err := recover(); err != nil {
-				log.Println("Error:", err)
-			}
-	}()
-	panic("something bad happened")
-	fmt.Println("end")
+	// fmt.Println("start")
+	// defer func() {
+	// 		if err := recover(); err != nil {
+	// 			log.Println("Error:", err)
+	// 		}
+	// }()
+	// panic("something bad happened")
+	// fmt.Println("end")
 
 	// This will fail if another temrinal opens and tries to run this on the same port
 
