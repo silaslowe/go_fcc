@@ -1,8 +1,8 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
+// func main() {
 
 // // Methods are functions with a specific context and that is given in the (g, greeter) params before the method is named
 // // This is by value and so the method cannot change the value of the properties in the struct
@@ -22,20 +22,22 @@ func main() {
 // func (g greeter) greet() {
 // 	fmt.Println(g.greeting, g.name)
 
-	g := greeter{
-		greeting: "Hello",
-		name: "Go",
-	}
-	g.greet()
-	fmt.Println("This is the name:", g.name)
+// // This is passed by reference and so the values can be motified
 
-}
-type greeter struct {
-	greeting string
-	name string
-}
+// 	g := greeter{
+// 		greeting: "Hello",
+// 		name: "Go",
+// 	}
+// 	g.greet()
+// 	fmt.Println("This is the name:", g.name)
 
-func (g *greeter) greet() {
-	fmt.Println(g.greeting, g.name)
-	g.name = "Heyo"
-}
+// }
+// type greeter struct {
+// 	greeting string
+// 	name string
+// }
+
+// func (g *greeter) greet() {
+// 	fmt.Println(g.greeting, g.name)
+// 	g.name = "Heyo"
+// }
