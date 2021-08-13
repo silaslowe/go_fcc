@@ -1,0 +1,18 @@
+BEST PRACTICES:
+
+Use many small interfaces
+    Single methd interfaces are some of the most powerful and flexible
+        io.Writer, io.Reader, interface{}
+
+Don't export interfaces for types that will be consumed
+
+Do export interfaces fot types that will be used by package
+
+Design methods and functions to recieve interfaces whenver possible
+
+Review:
+
+In interfaces wea re describing behaviors
+
+Implement the interface by creating methids with the same stignature
+
