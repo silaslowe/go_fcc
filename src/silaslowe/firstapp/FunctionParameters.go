@@ -1,8 +1,8 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
+// func main() {
 // 		for i:= 0; i < 5; i++ {
 // 			sayMessage("Hello Go!", i)
 // 		}
@@ -36,16 +36,16 @@ func main() {
 // 		*name = "Ted"
 // 		fmt.Println(*name)
 
-// Variatic Parameter: There can be only one
+// // Variatic Parameter: There can be only one
 
-	sum("The sum is: ", 10,2,3,4,5)
-}
+// 	sum("The sum is: ", 10,2,3,4,5)
+// }
 
-func sum(msg string, values ...int) {
-	fmt.Println(values)
-	result := 0
-	for _, v := range values {
-			result += v
-	}
-	fmt.Println(msg, result)
-}
+// func sum(msg string, values ...int) {
+// 	fmt.Println(values)
+// 	result := 0
+// 	for _, v := range values {
+// 			result += v
+// 	}
+// 	fmt.Println(msg, result)
+// }
